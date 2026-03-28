@@ -87,9 +87,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">You&apos;re on the list! 🎉</h3>
+              <h3 className="text-xl font-semibold mb-2">You're on the list! 🎉</h3>
               <p className="text-gray-400">
-                We&apos;ll notify you as soon as spots open up. Get ready to revolutionize your cold outreach.
+                We'll notify you as soon as spots open up. Get ready to revolutionize your cold outreach.
               </p>
             </div>
           )}
@@ -133,6 +133,46 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-2">Feedback Loop = Smarter Over Time</h3>
               <p className="text-gray-400 text-sm">
                 Rate your campaigns. Our AI learns what works for YOUR market and improves every single time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Privacy Section */}
+      <div className="bg-gradient-to-b from-black to-purple-900/20 py-20 border-t border-white/10">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">
+            Your Data Stays <span className="text-green-400">Yours</span>
+          </h2>
+          
+          <p className="text-gray-400 text-center text-lg mb-10 max-w-2xl mx-auto">
+            We know your prospect data and campaign content are valuable business assets. 
+            That's why we built SendGem fundamentally different from other AI tools:
+          </p>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
+              <div className="text-2xl mb-3">🔒</div>
+              <h3 className="text-lg font-semibold mb-2">100% Confidential</h3>
+              <p className="text-gray-400 text-sm">
+                Your data is never shared with third parties. Your prospects, your campaigns, your business.
+              </p>
+            </div>
+            
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
+              <div className="text-2xl mb-3">🚫</div>
+              <h3 className="text-lg font-semibold mb-2">Not Fed to Universal AI</h3>
+              <p className="text-gray-400 text-sm">
+                Your data will NEVER be used to train our AI models or any other AI system. That's a promise.
+              </p>
+            </div>
+            
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
+              <div className="text-2xl mb-3">🎯</div>
+              <h3 className="text-lg font-semibold mb-2">Only Makes YOUR Campaigns Better</h3>
+              <p className="text-gray-400 text-sm">
+                Our AI learns from YOUR feedback to improve YOUR results — nothing leaves your account.
               </p>
             </div>
           </div>
