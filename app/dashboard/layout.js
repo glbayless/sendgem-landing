@@ -14,7 +14,8 @@ export default function DashboardLayout({ children }) {
             <Link href="/dashboard/campaigns" className="text-gray-300 hover:text-white text-sm">Campaigns</Link>
             <Link href="/dashboard/prospects" className="text-gray-300 hover:text-white text-sm">Prospects</Link>
             <Link href="/dashboard/onboarding" className="text-gray-300 hover:text-white text-sm">New Campaign</Link>
-            <Link href="/dashboard/settings" className="text-purple-400 hover:text-purple-300 text-sm font-semibold">📧 Setup Email</Link>
+            <Link href="/dashboard/credits" className="text-gray-300 hover:text-white text-sm">💎 Credits</Link>
+            <Link href="/dashboard/settings" className="text-gray-300 hover:text-white text-sm">📧 Setup Email</Link>
             <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center text-sm font-semibold">
               G
             </div>

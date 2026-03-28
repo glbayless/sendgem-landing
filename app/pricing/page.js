@@ -248,7 +248,7 @@ We help B2B companies generate more leads through automated outreach. Curious if
 
 Best,
 [Us]</div>
-                  <p className="text-gray-500 text-sm mt-4 italic">Generic. Could apply to any company. Low reply rate.</p>
+                  
                 </div>
                 <div className="p-6 rounded-xl bg-gradient-to-b from-purple-900/50 to-pink-900/30 border-2 border-pink-500/50">
                   <p className="font-bold text-pink-400 text-lg mb-4">💎 With Deep Research ($0.60/contact):</p>
@@ -271,7 +271,7 @@ Best,
             <div className="mt-6 p-4 rounded-xl bg-yellow-900/20 border border-yellow-500/50 text-center">
               <p className="text-yellow-400 font-semibold">💡 Why Deep Research is worth the extra cost</p>
               <p className="text-sm text-gray-400 mt-2">
-                Basic research gets you generic emails that might get 1-2% reply rates. Deep research gives you hyper-personalized emails that can get 15-30% reply rates. At scale, that difference equals hundreds of extra conversations — and ultimately, revenue.
+                Basic AI research produces strong emails that get strong reply rates. Deep research will give you hyper-personalized emails that should get noticeably stronger reply rates. At scale, the difference equals hundreds of extra conversations — and ultimately, revenue.
               </p>
             </div>
           </div>
