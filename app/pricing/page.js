@@ -47,11 +47,11 @@ export default function Pricing() {
         </p>
 
         <div className="grid md:grid-cols-4 gap-4 max-w-5xl mx-auto">
-          {/* Starter - $79 */}
+          {/* Starter - $47 */}
           <div className="bg-gray-800 rounded-2xl p-6 border border-gray-700">
             <h2 className="text-xl font-bold mb-1">Starter</h2>
-            <p className="text-gray-500 text-sm mb-3">For testing</p>
-            <div className="text-3xl font-bold mb-1">$79<span className="text-lg text-gray-400 font-normal">/mo</span></div>
+            <p className="text-gray-500 text-sm mb-3">Try it out</p>
+            <div className="text-3xl font-bold mb-1">$47<span className="text-lg text-gray-400 font-normal">/mo</span></div>
             <p className="text-gray-500 text-sm mb-4">100 contacts/mo</p>
             <ul className="space-y-2 text-sm text-gray-300 mb-6">
               <li className="flex items-start gap-2">✓ AI email generation</li>
@@ -100,6 +100,7 @@ export default function Pricing() {
             <p className="text-gray-500 text-sm mb-4">2,500 contacts/mo</p>
             <ul className="space-y-2 text-sm text-gray-300 mb-6">
               <li className="flex items-start gap-2">✓ Everything in Growth</li>
+              <li className="flex items-start gap-2">✓ Basic AI research included</li>
               <li className="flex items-start gap-2">✓ Deep AI research add-on</li>
               <li className="flex items-start gap-2">✓ Team seats (3)</li>
               <li className="flex items-start gap-2">✓ API access</li>
@@ -121,7 +122,8 @@ export default function Pricing() {
             <p className="text-gray-500 text-sm mb-4">25,000 contacts/mo</p>
             <ul className="space-y-2 text-sm text-gray-300 mb-6">
               <li className="flex items-start gap-2">✓ Everything in Pro</li>
-              <li className="flex items-start gap-2">✓ Deep AI research included</li>
+              <li className="flex items-start gap-2">✓ Deep AI research (add-on)</li>
+              <li className="flex items-start gap-2">✓ Cheaper deep research: $0.10/contact</li>
               <li className="flex items-start gap-2">✓ Unlimited team seats</li>
               <li className="flex items-start gap-2">✓ Dedicated support</li>
             </ul>
@@ -136,9 +138,11 @@ export default function Pricing() {
         </div>
 
         {/* Add-on Note */}
-        <div className="mt-8 text-center p-4 rounded-xl bg-gray-800/50 border border-gray-700 max-w-md mx-auto">
+        <div className="mt-8 text-center p-4 rounded-xl bg-gray-800/50 border border-gray-700 max-w-lg mx-auto">
           <p className="text-gray-400 text-sm">
-            💡 <strong>Deep AI Research</strong> available as add-on for Pro tier at $0.05/contact
+            💡 <strong>Deep AI Research</strong> available as add-on: 
+            <span className="text-purple-400"> $0.15/contact (Pro)</span> • 
+            <span className="text-purple-400"> $0.10/contact (Agency)</span>
           </p>
         </div>
 
