@@ -167,7 +167,7 @@ export default function Pricing() {
                 <li className="flex items-start gap-2">✓ <strong className="text-green-400">Deep AI Research</strong> at lower cost: $0.10/contact</li>
                 <li className="flex items-start gap-2">✓ Dedicated account manager</li>
                 <li className="flex items-start gap-2">✓ Priority support & SLA</li>
-                <li className="flex items-start gap-2">✓ Custom integrations</li>
+                
                 <li className="flex items-start gap-2">✓ Volume pricing for extra contacts</li>
               </ul>
             </div>
@@ -216,12 +216,12 @@ export default function Pricing() {
                 <h3 className="text-lg font-bold text-pink-400 mb-3">💎 Deep AI Research <span className="text-sm font-normal text-gray-400">(Add-on for Pro & Agency)</span></h3>
                 <p className="text-sm text-gray-300 mb-4">For maximum personalization and higher reply rates, upgrade to Deep Research:</p>
                 <ul className="text-sm text-gray-400 space-y-2">
-                  <li className="flex items-start gap-2">✅ <strong>Verified Emails:</strong> We verify every email address before you send — dramatically reduces bounces</li>
+                  <li className="flex items-start gap-2">🔎 <strong>Paid APIs:</strong> ZoomInfo, Clearbit, LinkedIn Sales Navigator data</li>
+                  <li className="flex items-start gap-2">🎯 <strong>Intent Signals:</strong> What content they recently viewed, product searches</li>
                   <li className="flex items-start gap-2">💰 <strong>Funding Data:</strong> Recent raises, investors, round sizes</li>
-                  <li className="flex items-start gap-2">🎯 <strong>Intent Signals:</strong> What content they're consuming, product searches</li>
+                  <li className="flex items-start gap-2">✅ <strong>Verified Emails:</strong> We verify every email — dramatically reduces bounces</li>
                   <li className="flex items-start gap-2">👔 <strong>Leadership Changes:</strong> New hires, promotions, executive moves</li>
                   <li className="flex items-start gap-2">🛠 <strong>Tech Stack:</strong> What tools they use, integrations they have</li>
-                  <li className="flex items-start gap-2">📊 <strong>Company Insights:</strong> Headcount, revenue signals, growth indicators</li>
                 </ul>
               </div>
             </div>
