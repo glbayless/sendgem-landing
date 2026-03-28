@@ -59,6 +59,32 @@ export default function Onboarding() {
     setGenerating(false);
   };
 
+  const exportCSV = () => {
+    if (!generatedEmails || generatedEmails.length === 0) return;
+    
+    const headers = ['Step', 'Subject', 'Body'];
+    const rows = generatedEmails.map((e, i) => [
+      e.step || i + 1,
+      e.subject || '',
+      e.body || ''
+    ]);
+    
+    const csvContent = [
+      headers.join(','),
+      ...rows.map(r => r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(','))
+    ].join('\n');
+    
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `sendgem-campaign-${Date.now()}.csv`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <div className="max-w-2xl mx-auto">
       <h1 className="text-2xl font-bold mb-2">Start a Campaign</h1>
@@ -234,6 +260,12 @@ export default function Onboarding() {
           </div>
 
           <div className="flex gap-3 mt-6">
+            <button
+              onClick={exportCSV}
+              className="flex-1 py-3 rounded-xl border border-green-500 text-green-400 font-semibold hover:bg-green-500/10"
+            >
+              📥 Export CSV
+            </button>
             <button
               onClick={() => { setGeneratedEmails(null); setStep(3); }}
               className="flex-1 py-3 rounded-xl border border-white/20 font-semibold hover:bg-white/5"

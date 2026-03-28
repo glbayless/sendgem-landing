@@ -53,8 +53,9 @@ export default function Pricing() {
             <div className="text-4xl font-bold mb-4">$97<span className="text-lg text-gray-400 font-normal">/mo</span></div>
             <ul className="space-y-3 mb-8 text-gray-300">
               <li className="flex items-center gap-2">✓ AI email generation</li>
-              <li className="flex items-center gap-2">✓ 500 prospects/mo</li>
+              <li className="flex items-center gap-2">✓ 100 contacts/mo</li>
               <li className="flex items-center gap-2">✓ Basic email sequences</li>
+              <li className="flex items-center gap-2">✓ CSV export</li>
               <li className="flex items-center gap-2">✓ Standard support</li>
             </ul>
             <button
@@ -75,7 +76,7 @@ export default function Pricing() {
             <div className="text-4xl font-bold mb-4">$297<span className="text-lg text-gray-400 font-normal">/mo</span></div>
             <ul className="space-y-3 mb-8 text-gray-300">
               <li className="flex items-center gap-2">✓ Everything in Starter</li>
-              <li className="flex items-center gap-2">✓ Unlimited prospects</li>
+              <li className="flex items-center gap-2">✓ 2,500 contacts/mo</li>
               <li className="flex items-center gap-2">✓ Full 5-7 step sequences</li>
               <li className="flex items-center gap-2">✓ Deep prospect research</li>
               <li className="flex items-center gap-2">✓ AI learns your feedback</li>
