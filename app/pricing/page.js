@@ -131,10 +131,10 @@ export default function Pricing() {
                 <li className="flex items-start gap-2">✓ <strong>Basic AI Research</strong> included</li>
                 <li className="flex items-start gap-2">✓ 3 team seats included</li>
                 <li className="flex items-start gap-2">✓ API access for integrations</li>
-                <li className="flex items-start gap-2">✓ Add <strong className="text-pink-400">Deep AI Research</strong> for $0.15/contact</li>
+                <li className="flex items-start gap-2">✓ Add <strong className="text-pink-400">Deep AI Research</strong> for $0.60/contact</li>
+                <li className="flex items-start gap-2">✓ Premium data from paid APIs</li>
                 <li className="flex items-start gap-2">✓ Verified email addresses</li>
-                <li className="flex items-start gap-2">✓ Funding event triggers</li>
-                <li className="flex items-start gap-2">✓ Intent signals & trigger events</li>
+                <li className="flex items-start gap-2">✓ Intent signals & buying triggers</li>
               </ul>
             </div>
             
@@ -164,10 +164,9 @@ export default function Pricing() {
                 <li className="flex items-start gap-2">✓ <strong className="text-green-400">Everything in Pro, plus:</strong></li>
                 <li className="flex items-start gap-2">✓ <strong>Basic AI Research</strong> included</li>
                 <li className="flex items-start gap-2">✓ Unlimited team seats</li>
-                <li className="flex items-start gap-2">✓ <strong className="text-green-400">Deep AI Research</strong> at lower cost: $0.10/contact</li>
+                <li className="flex items-start gap-2">✓ <strong className="text-green-400">Deep AI Research</strong> at lower cost: $0.50/contact</li>
                 <li className="flex items-start gap-2">✓ Dedicated account manager</li>
                 <li className="flex items-start gap-2">✓ Priority support & SLA</li>
-                
                 <li className="flex items-start gap-2">✓ Volume pricing for extra contacts</li>
               </ul>
             </div>
@@ -201,27 +200,27 @@ export default function Pricing() {
               {/* Basic Research */}
               <div className="p-5 rounded-xl bg-gray-700/50 border border-gray-600">
                 <h3 className="text-lg font-bold text-purple-400 mb-3">✓ Basic AI Research <span className="text-sm font-normal text-gray-400">(Growth, Pro & Agency)</span></h3>
-                <p className="text-sm text-gray-300 mb-4">We automatically research every prospect before writing your emails. Here's what we find:</p>
-                <ul className="text-sm text-gray-400 space-y-2">
-                  <li className="flex items-start gap-2">🔍 <strong>LinkedIn Profile:</strong> Job title, company tenure, background</li>
-                  <li className="flex items-start gap-2">🌐 <strong>Company Website:</strong> What they do, recent updates</li>
-                  <li className="flex items-start gap-2">📰 <strong>Recent News:</strong> Press mentions, blog posts, events</li>
-                  <li className="flex items-start gap-2">💬 <strong>Social Activity:</strong> Recent posts, comments, shares</li>
+                <p className="text-sm text-gray-300 mb-4">We automatically research every prospect before writing your emails. Here's what we find for FREE:</p>
+                <ul className="text-sm text-gray-400 space-y-3">
+                  <li className="flex items-start gap-2">🔍 <strong>LinkedIn Profile:</strong> Job title, company tenure, background, recent activity</li>
+                  <li className="flex items-start gap-2">🌐 <strong>Company Website:</strong> What they do, recent updates, product launches</li>
+                  <li className="flex items-start gap-2">📰 <strong>Recent News:</strong> Press mentions, blog posts, events, speaking engagements</li>
+                  <li className="flex items-start gap-2">💬 <strong>Social Activity:</strong> Recent posts, comments, shares, engagement patterns</li>
                   <li className="flex items-start gap-2">🧠 <strong>Smart Learning:</strong> AI improves based on your feedback — tells us what works and what doesn't, so each email gets better than the last</li>
                 </ul>
               </div>
 
               {/* Deep Research */}
               <div className="p-5 rounded-xl bg-purple-900/30 border border-purple-500">
-                <h3 className="text-lg font-bold text-pink-400 mb-3">💎 Deep AI Research <span className="text-sm font-normal text-gray-400">(Add-on for Pro & Agency)</span></h3>
-                <p className="text-sm text-gray-300 mb-4">For maximum personalization and higher reply rates, upgrade to Deep Research:</p>
-                <ul className="text-sm text-gray-400 space-y-2">
-                  <li className="flex items-start gap-2">🔎 <strong>Paid APIs:</strong> ZoomInfo, Clearbit, LinkedIn Sales Navigator data</li>
-                  <li className="flex items-start gap-2">🎯 <strong>Intent Signals:</strong> What content they recently viewed, product searches</li>
-                  <li className="flex items-start gap-2">💰 <strong>Funding Data:</strong> Recent raises, investors, round sizes</li>
-                  <li className="flex items-start gap-2">✅ <strong>Verified Emails:</strong> We verify every email — dramatically reduces bounces</li>
-                  <li className="flex items-start gap-2">👔 <strong>Leadership Changes:</strong> New hires, promotions, executive moves</li>
-                  <li className="flex items-start gap-2">🛠 <strong>Tech Stack:</strong> What tools they use, integrations they have</li>
+                <h3 className="text-lg font-bold text-pink-400 mb-3">💎 Deep AI Research <span className="text-sm font-normal text-gray-400">(Add-on: Pro $0.60/contact • Agency $0.50/contact)</span></h3>
+                <p className="text-sm text-gray-300 mb-4">For maximum personalization and dramatically higher reply rates, upgrade to Deep Research. We use premium paid data sources to give you a competitive edge:</p>
+                <ul className="text-sm text-gray-400 space-y-3">
+                  <li className="flex items-start gap-2">🔎 <strong>Premium APIs:</strong> Data from ZoomInfo, Clearbit, LinkedIn Sales Navigator — the same tools Fortune 500 sales teams use</li>
+                  <li className="flex items-start gap-2">🎯 <strong>Intent Signals:</strong> See what products they're researching, what content they're consuming — know who to prioritize</li>
+                  <li className="flex items-start gap-2">💰 <strong>Funding Intel:</strong> Recent raises, investors, round sizes, valuation changes — recent funding = budget for new tools</li>
+                  <li className="flex items-start gap-2">✅ <strong>Verified Emails:</strong> Every email address is verified — no bounces, no wasted sends, no damaging spam trap hits</li>
+                  <li className="flex items-start gap-2">👔 <strong>Leadership Changes:</strong> New hires, promotions, executive moves — these are perfect warm-up reasons to reach out</li>
+                  <li className="flex items-start gap-2">🛠 <strong>Tech Stack:</strong> What tools they use, what integrations they have — know if you'd be a natural fit</li>
                 </ul>
               </div>
             </div>
@@ -232,16 +231,16 @@ export default function Pricing() {
                 onClick={() => setShowExamples(!showExamples)}
                 className="text-purple-400 font-semibold hover:text-purple-300 text-lg"
               >
-                {showExamples ? '▼ Hide' : '▶ Click to see'} the difference in generated emails
+                {showExamples ? '▼ Hide' : '▶ Click to see the difference'} in generated emails
               </button>
             </div>
 
             {showExamples && (
-              <div className="grid md:grid-cols-2 gap-4 text-sm">
-                <div className="p-5 rounded-xl bg-gray-700/30 border border-gray-600">
-                  <p className="font-bold text-purple-400 mb-3">📧 With Basic Research ($0 extra):</p>
+              <div className="grid md:grid-cols-2 gap-6 text-sm">
+                <div className="p-6 rounded-xl bg-gray-700/30 border border-gray-600">
+                  <p className="font-bold text-purple-400 text-lg mb-4">📧 With Basic Research:</p>
                   <p className="text-gray-300 text-sm mb-2 italic">Subject: Quick question about TechStartup</p>
-                  <div className="text-gray-400 text-xs space-y-2 whitespace-pre-line">Hi John,
+                  <div className="text-gray-400 text-sm space-y-2 whitespace-pre-line bg-black/20 p-4 rounded-lg">Hi John,
 
 I noticed TechStartup is growing — impressive what you're building.
 
@@ -249,25 +248,32 @@ We help B2B companies generate more leads through automated outreach. Curious if
 
 Best,
 [Us]</div>
-                  <p className="text-gray-500 text-xs mt-3 italic">Good — but generic. Could apply to any company.</p>
+                  <p className="text-gray-500 text-sm mt-4 italic">Generic. Could apply to any company. Low reply rate.</p>
                 </div>
-                <div className="p-5 rounded-xl bg-purple-900/30 border border-purple-500">
-                  <p className="font-bold text-pink-400 mb-3">💎 With Deep Research ($0.10-0.15/contact):</p>
+                <div className="p-6 rounded-xl bg-gradient-to-b from-purple-900/50 to-pink-900/30 border-2 border-pink-500/50">
+                  <p className="font-bold text-pink-400 text-lg mb-4">💎 With Deep Research ($0.60/contact):</p>
                   <p className="text-gray-300 text-sm mb-2 italic">Subject: Congrats on the Series A — thoughts on scaling outreach?</p>
-                  <div className="text-gray-400 text-xs space-y-2 whitespace-pre-line">Hi John,
+                  <div className="text-gray-300 text-sm space-y-2 whitespace-pre-line bg-black/20 p-4 rounded-lg">Hi John,
 
-Congrats on the $15M Series A! 🎉 Saw the TechCrunch coverage — exciting times. I noticed you've been focusing on product expansion lately (loved your API launch post).
+Congrats on the $15M Series A! 🎉 Saw the TechCrunch coverage — exciting times for TechStartup. I noticed you've been going all-in on product expansion lately (loved your API launch last week).
 
 We've helped 50+ Series A companies like yours scale their outbound — specifically ones that just raised and need to build pipeline fast without hiring a full sales team. Companies like Dataflow (raised $12M in Q3) saw 3x increase in meetings within 60 days.
 
-Quick 15-min chat to see if we'd be a fit?
+Quick 15-min chat to see if we'd be a fit? We specialize in B2B SaaS.
 
 Best,
 [Us]</div>
-                  <p className="text-gray-500 text-xs mt-3 italic">Much more personal, relevant and likely to get a reply.</p>
+                  <p className="text-pink-400 text-sm mt-4 font-semibold">Massively more personal, relevant and likely to get a reply. This is enterprise-grade outreach.</p>
                 </div>
               </div>
             )}
+            
+            <div className="mt-6 p-4 rounded-xl bg-yellow-900/20 border border-yellow-500/50 text-center">
+              <p className="text-yellow-400 font-semibold">💡 Why Deep Research is worth the extra cost</p>
+              <p className="text-sm text-gray-400 mt-2">
+                Basic research gets you generic emails that might get 1-2% reply rates. Deep research gives you hyper-personalized emails that can get 15-30% reply rates. At scale, that difference equals hundreds of extra conversations — and ultimately, revenue.
+              </p>
+            </div>
           </div>
         </div>
 
