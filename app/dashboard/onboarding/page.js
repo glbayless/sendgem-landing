@@ -13,6 +13,7 @@ export default function Onboarding() {
     description: ''
   });
   const [tone, setTone] = useState('professional');
+  const [samples, setSamples] = useState('');
   const [prospects, setProspects] = useState('');
   const [generating, setGenerating] = useState(false);
   const [generatedEmails, setGeneratedEmails] = useState(null);
@@ -92,7 +93,7 @@ export default function Onboarding() {
 
       {/* Progress */}
       <div className="flex items-center gap-2 mb-8">
-        {[1, 2, 3, 4].map((s) => (
+        {[1, 2, 3, 4, 5].map((s) => (
           <div key={s} className="flex items-center">
             <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm ${step >= s ? 'bg-purple-600' : 'bg-gray-700'}`}>
               {s}
@@ -167,7 +168,60 @@ export default function Onboarding() {
 
       {step === 2 && (
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Step 2: Your Tone & Voice</h2>
+          <h2 className="text-xl font-semibold">Step 2: Share Your Voice</h2>
+          
+          <p className="text-gray-400 text-sm">Help our AI write in YOUR voice by uploading any of these:</p>
+          
+          <div className="grid grid-cols-2 gap-3">
+            {[
+              'Sample emails you\'ve sent',
+              'Company website (we\'ll read it)',
+              'Pitch deck or one-pager',
+              'Case studies',
+              'Product descriptions',
+              'Blog posts',
+              'LinkedIn posts',
+              'Competitor info'
+            ].map((item) => (
+              <div key={item} className="p-3 rounded-xl border border-white/20 bg-white/5 text-sm text-gray-300">
+                📄 {item}
+              </div>
+            ))}
+          </div>
+
+          <div>
+            <label className="block text-sm text-gray-400 mb-1">
+              Or paste samples here (we'll read your website automatically if you gave us the URL)
+            </label>
+            <textarea
+              value={samples}
+              onChange={(e) => setSamples(e.target.value)}
+              placeholder="Paste sample emails, links to your website, or any context about how you talk to prospects..."
+              rows={6}
+              className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-500 focus:outline-none focus:border-purple-500"
+            />
+          </div>
+
+          <div className="flex gap-3 mt-6">
+            <button
+              onClick={() => setStep(1)}
+              className="flex-1 py-3 rounded-xl border border-white/20 font-semibold hover:bg-white/5"
+            >
+              Back
+            </button>
+            <button
+              onClick={() => setStep(3)}
+              className="flex-1 py-3 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 font-semibold"
+            >
+              Next Step
+            </button>
+          </div>
+        </div>
+      )}
+
+      {step === 3 && (
+        <div className="space-y-4">
+          <h2 className="text-xl font-semibold">Step 3: Your Tone & Voice</h2>
           
           <p className="text-gray-400 text-sm">How should the AI sound when writing your emails?</p>
           
@@ -202,7 +256,7 @@ export default function Onboarding() {
 
       {step === 3 && (
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Step 3: Add Prospects</h2>
+          <h2 className="text-xl font-semibold">Step 4: Add Prospects</h2>
           
           <div className="border-2 border-dashed border-gray-600 rounded-xl p-6 text-center">
             <div className="text-3xl mb-2">📄</div>
@@ -242,7 +296,7 @@ export default function Onboarding() {
 
       {step === 4 && generatedEmails && (
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Step 4: Your Generated Emails</h2>
+          <h2 className="text-xl font-semibold">Step 5: Your Generated Emails</h2>
           
           <p className="text-gray-400">Your AI-generated email sequence is ready!</p>
 

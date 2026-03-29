@@ -173,18 +173,18 @@ export default function Home() {
             </div>
             
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
-              <div className="text-2xl mb-3">🚫</div>
-              <h3 className="text-lg font-semibold mb-2">Not Fed to Universal AI</h3>
+              <div className="text-2xl mb-3">🎯</div>
+              <h3 className="text-lg font-semibold mb-2">Only Trains YOUR Results</h3>
               <p className="text-gray-400 text-sm">
-                Your data will NEVER be used to train our AI models or any other AI system. That's a promise.
+                Your data makes YOUR campaigns smarter — we use your feedback and preferences to improve YOUR email results, automatically.
               </p>
             </div>
             
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-lg font-semibold mb-2">Only Makes YOUR Campaigns Better</h3>
+              <div className="text-2xl mb-3">🔒</div>
+              <h3 className="text-lg font-semibold mb-2">Your Data Never Leaves Your Account</h3>
               <p className="text-gray-400 text-sm">
-                Our AI learns from YOUR feedback to improve YOUR results — nothing leaves your account.
+                Your prospects, campaigns, and feedback stay private. They're used to power YOUR results — not shared or sold.
               </p>
             </div>
           </div>

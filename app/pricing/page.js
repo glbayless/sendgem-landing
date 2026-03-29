@@ -165,9 +165,9 @@ export default function Pricing() {
                 <li className="flex items-start gap-2">✓ <strong>Basic AI Research</strong> included</li>
                 <li className="flex items-start gap-2">✓ Unlimited team seats</li>
                 <li className="flex items-start gap-2">✓ <strong className="text-green-400">Deep AI Research</strong> at lower cost: $0.50/contact</li>
-                <li className="flex items-start gap-2">✓ Assigned account manager who knows your account</li>
-                <li className="flex items-start gap-2">✓ 4-hour support response time (SLA)</li>
-                <li className="flex items-start gap-2">✓ Discounted rate for contacts above 25,000</li>
+                <li className="flex items-start gap-2">✓ Dedicated account manager</li>
+                <li className="flex items-start gap-2">✓ Priority support & SLA</li>
+                <li className="flex items-start gap-2">✓ Volume pricing for extra contacts</li>
               </ul>
             </div>
             
