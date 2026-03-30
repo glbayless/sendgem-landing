@@ -70,13 +70,9 @@ export default function Pricing() {
             
             <div className="mt-2">
               <p className="text-xs text-gray-500 mb-3">Best for: Solopreneurs testing the waters</p>
-              <button
-                onClick={() => handleSubscribe('price_starter')}
-                disabled={loading === 'price_starter'}
-                className="w-full py-3 rounded-xl bg-gray-700 font-semibold hover:bg-gray-600 disabled:opacity-50 text-sm"
-              >
-                {loading === 'price_starter' ? 'Loading...' : 'Start Free Trial'}
-              </button>
+              <a href="/signup#waitlist-form" className="block w-full py-3 rounded-xl bg-gray-700 font-semibold hover:bg-gray-600 text-sm text-center">
+                Coming soon. Join our waitlist.
+              </a>
             </div>
           </div>
 
@@ -103,13 +99,9 @@ export default function Pricing() {
             
             <div className="mt-2">
               <p className="text-xs text-gray-500 mb-3">Best for: Freelancers & small agencies</p>
-              <button
-                onClick={() => handleSubscribe('price_growth')}
-                disabled={loading === 'price_growth'}
-                className="w-full py-3 rounded-xl bg-gray-700 font-semibold hover:bg-gray-600 disabled:opacity-50 text-sm"
-              >
-                {loading === 'price_growth' ? 'Loading...' : 'Start Free Trial'}
-              </button>
+              <a href="/signup#waitlist-form" className="block w-full py-3 rounded-xl bg-gray-700 font-semibold hover:bg-gray-600 text-sm text-center">
+                Coming soon. Join our waitlist.
+              </a>
             </div>
           </div>
 
@@ -140,13 +132,9 @@ export default function Pricing() {
             
             <div className="mt-2">
               <p className="text-xs text-gray-500 mb-3">Best for: Teams needing volume & quality</p>
-              <button
-                onClick={() => handleSubscribe('price_pro')}
-                disabled={loading === 'price_pro'}
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 font-semibold hover:scale-[1.02] transition-transform disabled:opacity-50 text-sm"
-              >
-                {loading === 'price_pro' ? 'Loading...' : 'Start Free Trial'}
-              </button>
+              <a href="/signup#waitlist-form" className="block w-full py-3 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 font-semibold hover:scale-[1.02] transition-transform text-sm text-center">
+                Coming soon. Join our waitlist.
+              </a>
             </div>
           </div>
 
@@ -173,13 +161,9 @@ export default function Pricing() {
             
             <div className="mt-2">
               <p className="text-xs text-gray-500 mb-3">Best for: Agencies & enterprises</p>
-              <button
-                onClick={() => handleSubscribe('price_agency')}
-                disabled={loading === 'price_agency'}
-                className="w-full py-3 rounded-xl border border-purple-500 text-purple-400 font-semibold hover:bg-purple-500/10 disabled:opacity-50 text-sm"
-              >
-                {loading === 'price_agency' ? 'Loading...' : 'Contact Sales'}
-              </button>
+              <a href="/signup#waitlist-form" className="block w-full py-3 rounded-xl border border-purple-500 text-purple-400 font-semibold hover:bg-purple-500/10 text-sm text-center">
+                Coming soon. Join our waitlist.
+              </a>
             </div>
           </div>
         </div>

@@ -70,7 +70,7 @@ export default function Home() {
 
           {/* Waitlist Form */}
           {!submitted ? (
-            <form onSubmit={handleSubmit} className="max-w-md mx-auto">
+            <form id="waitlist-form" onSubmit={handleSubmit} className="max-w-md mx-auto">
               <div className="flex flex-col sm:flex-row gap-3">
                 <input
                   type="email"
