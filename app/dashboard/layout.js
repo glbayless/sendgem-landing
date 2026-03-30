@@ -44,6 +44,7 @@ export default function DashboardLayout({ children }) {
           </Link>
           
           <div className="flex items-center gap-4">
+            <Link href="/" className="text-gray-300 hover:text-white text-sm">🏠 Home</Link>
             <Link href="/dashboard/campaigns" className="text-gray-300 hover:text-white text-sm">Campaigns</Link>
             <Link href="/dashboard/prospects" className="text-gray-300 hover:text-white text-sm">Prospects</Link>
             <Link href="/dashboard/onboarding" className="text-gray-300 hover:text-white text-sm">New Campaign</Link>

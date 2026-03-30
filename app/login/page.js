@@ -38,6 +38,11 @@ export default function Login() {
   return (
     <div className="min-h-screen bg-black text-white flex items-center justify-center">
       <div className="w-full max-w-md p-8">
+        <div className="mb-6">
+          <Link href="/" className="text-gray-400 hover:text-white text-sm flex items-center gap-2">
+            ← Back to SendGem
+          </Link>
+        </div>
         <div className="text-center mb-8">
           <Link href="/" className="text-3xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
             SendGem

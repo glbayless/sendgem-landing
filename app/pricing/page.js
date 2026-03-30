@@ -36,8 +36,23 @@ export default function Pricing() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white py-16">
-      <div className="max-w-6xl mx-auto px-4">
+    <div className="min-h-screen bg-black text-white">
+      {/* Navigation */}
+      <nav className="border-b border-gray-800 px-6 py-4">
+        <div className="max-w-6xl mx-auto flex items-center justify-between">
+          <a href="/" className="text-xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+            SendGem
+          </a>
+          <div className="flex items-center gap-6">
+            <a href="/#how-it-works" className="text-gray-400 hover:text-white text-sm">How It Works</a>
+            <a href="/pricing" className="text-purple-400 font-semibold text-sm">Pricing</a>
+            <a href="/login" className="text-gray-400 hover:text-white text-sm">Login</a>
+            <a href="/signup" className="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-sm hover:bg-white/20">Get Started</a>
+          </div>
+        </div>
+      </nav>
+
+      <div className="max-w-6xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold text-center mb-4">
           <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
             Choose Your Plan
